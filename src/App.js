@@ -9,7 +9,6 @@ import EmployeeLogin from './components/EmployeeLogin';
 function App() {
   return (
     <div>
-      <h1>Home page</h1>
       <Banner/>
 
       <Routes>
