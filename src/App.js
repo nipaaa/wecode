@@ -10,12 +10,8 @@ function App() {
   return (
     <div>
       <Banner/>
-
-      <Routes>
-          <Route path="/" element={<Login />}></Route>
-          <Route exact path="/employeeLogin" element={<EmployeeLogin />}></Route>
       
-        </Routes>
+   
     </div>
   );
 }
