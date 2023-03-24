@@ -3,14 +3,17 @@ import './App.css';
 import Banner from './components/Banner';
 
 import { Route, Routes } from "react-router-dom";
-import Login from './components/Login';
-import EmployeeLogin from './components/EmployeeLogin';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import WeCreate from './components/WeCreate';
 
 function App() {
   return (
     <div>
+      <Header/>
+      <WeCreate/>
       <Banner/>
-      
+      <Footer/>
    
     </div>
   );
